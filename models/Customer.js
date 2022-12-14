@@ -19,9 +19,9 @@ const CustomerSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    loanBalanceId: {
+    loan: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: 'LoanBalance'
+      ref: 'Loan'
     }
   },
   {

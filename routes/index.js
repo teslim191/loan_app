@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { signUp, signIn } = require("../controllers/authController");
 
+
 /*
 @post request to create a customer
 signup

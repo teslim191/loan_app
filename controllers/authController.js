@@ -1,6 +1,5 @@
 const Customer = require("../models/Customer");
 const bcrypt = require('bcrypt')
-const Loan = require("../models/Loan");
 
 module.exports = {
   signUp: async (req, res, next) => {

@@ -20,7 +20,7 @@ const LoanSchema = new mongoose.Schema(
       enum: ["cleared", "owed"],
       default: "owed",
     },
-    customerId: {
+    customer: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Customer",
     },
